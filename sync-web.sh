@@ -19,10 +19,11 @@
 #   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 host=$1
 if [ -z $host ]; then
-	host=www.collider-x.org 
+#	host=www.collider-x.org 
+	host=iliana-orisvaliente.squarespace.com
 fi
 echo Downloading web assets from $host 
 wget -mk https://$host
-wget -mkEpnp https://${host}/june-2017-conferences/
-wget -mkEpnp https://${host}/collaborate/
+#wget -mkEpnp https://${host}/june-2017-conferences/
+#wget -mkEpnp https://${host}/collaborate/
 
