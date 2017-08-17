@@ -22,7 +22,7 @@ if [ -z $host ]; then
 	host=www.collider-x.org 
 fi
 echo Downloading web assets from $host 
-wget -mkEpnp https://$host
+wget -mk https://$host
 wget -mkEpnp https://${host}/june-2017-conferences/
 wget -mkEpnp https://${host}/collaborate/
 
