@@ -24,6 +24,7 @@ if [ -z $host ]; then
 fi
 echo Downloading web assets from $host 
 wget -mk https://$host
+wget -mk https://${host}/collaborate/	# need this because looks like a route in sqspace (no links to it)
 #wget -mkEpnp https://${host}/june-2017-conferences/
 #wget -mkEpnp https://${host}/collaborate/
 
